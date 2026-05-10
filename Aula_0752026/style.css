@@ -28,25 +28,34 @@ body {
     height: 90%;
     padding: 20px;
     width: 45%;
-    background-color: #000000;
-    color: white;
     text-align: center;
 }
-h1 {
+#divisor1 {
+    font-size: 25px;
+}
+#divisor2 {
+    background-color: rgba(0, 0, 0, 0.74);
     color: white;
-    font-size: 100px;
-    top: 20px;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
+    border-radius: 5px;
+}
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+}
+li {
+    font-size: 25px;
 }
 button {
     padding: 10px 20px;
     background-color: #4e4e4e;
+    font-size: 20px;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 40vh;
+    height: 10vh;
 }
 button:hover {
     background-color: #666666;
@@ -56,4 +65,10 @@ button:hover {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+footer {
+    color: white;
+    position: fixed;
+    display: flex;
+    bottom: 0;
 }
